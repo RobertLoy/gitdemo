@@ -10,9 +10,11 @@ public class Start {
 		funcJames();
 		
 	}
-	
+	// Changes made to funcPhilip with syso
+	// Changes made on 06/16/2020 by Philip Evans
 	private static void funcPhilip() {
-		// 1) Create a syso with a motivational message
+		System.out.println("The secret of getting ahead is getting started.");
+		System.out.println("-Mark Twain");
 	}
 	
 	private static void funcSteve() {
