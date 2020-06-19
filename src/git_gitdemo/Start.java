@@ -29,11 +29,12 @@ public class Start {
 		String s = steve.sayGoodBye();
 		System.out.println(s);
 		
-		
 	}
 	
 	private static void funcMara() {
 		System.out.println("I have a great class!");
+    		Mara mara = new Mara();
+		System.out.println(mara.sayGoodBye());
 	}
 	
 	private static void funcRob() {
