@@ -9,6 +9,10 @@ public class Start {
 		funcRob();
 		funcJames();
 		
+		Philip p = new Philip();
+		p.sayGoodBye();
+		System.out.println(p.sayGoodBye());
+		
 	}
 	// Changes made to funcPhilip with syso
 	// Changes made on 06/16/2020 by Philip Evans
@@ -18,12 +22,19 @@ public class Start {
 	}
 	
 	private static void funcSteve() {
-		Mara mara = new Mara();
-		System.out.println(mara.sayGoodBye());
+		// Create a syso with a motivational message
+		System.out.println("You can do it!");
+		
+		Steve steve = new Steve();
+		String s = steve.sayGoodBye();
+		System.out.println(s);
+		
 	}
 	
 	private static void funcMara() {
 		System.out.println("I have a great class!");
+    		Mara mara = new Mara();
+		System.out.println(mara.sayGoodBye());
 	}
 	
 	private static void funcRob() {
