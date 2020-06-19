@@ -20,6 +20,12 @@ public class Start {
 	private static void funcSteve() {
 		// Create a syso with a motivational message
 		System.out.println("You can do it!");
+		
+		Steve steve = new Steve();
+		String s = steve.sayGoodBye();
+		System.out.println(s);
+		
+		
 	}
 	
 	private static void funcMara() {
