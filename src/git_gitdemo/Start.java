@@ -9,6 +9,10 @@ public class Start {
 		funcRob();
 		funcJames();
 		
+		Philip p = new Philip();
+		p.sayGoodBye();
+		System.out.println(p.sayGoodBye());
+		
 	}
 	// Changes made to funcPhilip with syso
 	// Changes made on 06/16/2020 by Philip Evans
