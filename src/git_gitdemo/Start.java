@@ -20,7 +20,7 @@ public class Start {
 	}
 	
 	private static void funcMara() {
-		// Create a syso with a motivational message
+		System.out.println("I have a great class!");
 	}
 	
 	private static void funcRob() {
