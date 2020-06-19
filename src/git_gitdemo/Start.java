@@ -18,8 +18,8 @@ public class Start {
 	}
 	
 	private static void funcSteve() {
-		// Create a syso with a motivational message
-		System.out.println("You can do it!");
+		Mara mara = new Mara();
+		System.out.println(mara.sayGoodBye());
 	}
 	
 	private static void funcMara() {
